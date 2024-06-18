@@ -1,13 +1,13 @@
 export interface ChallengeData {
   id: string;
-  calendar: Calendar[];
+  calendar: CalendarData[];
   created: string;
   customer: Customer;
   deleted: boolean;
   status: string;
 }
 
-export interface Calendar {
+export interface CalendarData {
   actions: Action[];
   month: number;
   year: number;
